@@ -1,0 +1,18 @@
+{
+  "name": "scrape-to-feed",
+  "version": "0.1.6",
+  "description": "Serve feeds from scraped HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Green",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "jstoxml": "^1.1.3"
+  }
+}
