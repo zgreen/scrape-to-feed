@@ -1,6 +1,6 @@
 {
   "name": "scrape-to-feed",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Serve feeds from scraped HTML",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   },
   "author": "Zach Green",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zgreen/scrape-to-feed.git"
+  },
   "dependencies": {
     "axios": "^0.17.1",
     "cheerio": "^1.0.0-rc.2",
